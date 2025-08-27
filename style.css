@@ -12,18 +12,12 @@
 .none{
     display: none !important;
 }
-@media (max-width:760px) {
-    .header-telegramm img{
-        display: none;
-    }
-      .header-telegramm {
-        margin-left: 0;
-      }
-}
+
 .textPunkt{
    
     min-width: 500px !important;
 }
+
 .topten{
     margin-top: -10px !important;
   
@@ -36,4 +30,22 @@
 }
 .hightTop{
     margin-top: -150px !important;
+}
+
+@media (max-width:760px) {
+    .header-telegramm img{
+        display: none;
+    }
+      .header-telegramm {
+        margin-left: 0;
+      }
+      .textPunkt{
+   
+  
+     min-width: 300px !important;
+   
+}
+.monileNone{
+    display: none !important;
+}
 }
