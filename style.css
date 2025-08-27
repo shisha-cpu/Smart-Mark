@@ -49,3 +49,7 @@
     display: none !important;
 }
 }
+
+.js-form-popup-errorbox{
+    display: none !important;
+}
